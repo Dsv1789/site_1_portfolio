@@ -23,6 +23,124 @@ body {
     padding: 0 250px;
 }
 
+/* header */
+.header {
+    background: url("../img/bg.png");
+    background-size: cover;
+    width: 1438px;
+    height: 769px;
+}
+
+.header_title_2 {
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 41px 0;
+    margin: 0;
+
+    font-family: OpenSans;
+    font-style: normal;
+    letter-spacing: 0.188px;
+}
+
+.header_title_1 {
+    color: #FFF;
+    text-align: center;
+    font-family: BebasNeueBold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.709px;
+
+    padding-top: 220px;
+    margin: 0;
+}
+
+.header_title_5 {
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-top: 1px;
+    margin: 0;
+}
+
+.header_title_6 {
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.7px;
+
+    padding-top: 270px;
+    margin: 0;
+}
+
+/* /header */
+
+/* navbar */
+.navbar {}
+
+.container_navbar {
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.navbar_left {
+    width: 50%;
+}
+.navbar_left_logo {
+    background: url("../img/projeco-logo-black.png");
+    background-size: cover;
+    width: 60px;
+    height: 13px;
+}
+
+.navbar_right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center
+}
+
+.navbar_right_home,
+.navbar_right_about,
+.navbar_right_services,
+.navbar_right_work,
+.navbar_right_contact {
+    color: #48555B;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.091px;
+}
+
+.blue {
+    color: #00A4E5;
+}
+
+hr {
+    border: 1px solid #E6E6E6;
+    margin: 0;
+}
+
+/* /navbar */
 
 /* story */
 .story {
@@ -112,6 +230,7 @@ body {
     .container {
         padding: 0 15px;
     }
+
     .story_inner {
         flex-wrap: wrap;
     }
@@ -121,9 +240,11 @@ body {
     .story_right {
         flex-wrap: wrap;
     }
+
     .story_item {
         margin-bottom: 20px;
     }
+
     .story_item:nth-child(3) {
         margin-bottom: 0;
     }
